@@ -1,3 +1,6 @@
+`npm i`to build
+`npm run test`for test
+
 ## ISOLATED FUNCTIONS
 
 `eventHandler` = responsible for determining the partition key for an event. It first checks if the event already has a partition key, and returns it if it does. If not, it calculates a hash of the event data using SHA3-512 and returns it as the partition key
