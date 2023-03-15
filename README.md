@@ -1,5 +1,5 @@
-`npm i`to build
-`npm run test`for test
+`npm i`to build <br />
+`npm run test`for test <br />
 
 ## ISOLATED FUNCTIONS
 
