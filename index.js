@@ -36,8 +36,8 @@ const candidateHandler = (c) => {
 const deterministicPartitionKey = (event) => {
     let candidate
     candidate = eventHandler(event)
-    candidateHandler(candidate)
-    return candidate
+    const response = candidateHandler(candidate)
+    return response
 }
 
 module.exports = { 
